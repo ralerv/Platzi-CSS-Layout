@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.header__media {
+  display: grid;
+  width: 100%;
+  height: 50px;
+  background-color: #47cfac;
+}
+.header__media__container {
+  height: 100%;
+  display: flex;
+  justify-self: end;
+  justify-items: center;
+  align-items: center;
+  margin-right: 28px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,2 +1,28 @@
 @use './index' as *;
 
+.header {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    &__media {
+        display: grid;
+        width: 100%;
+        height: 50px;
+        background-color: $color-primario;
+        &__container{
+            height: 100%;
+            display: flex;
+            justify-self: end;
+            justify-items: center;
+            align-items: center;
+            margin-right: 28px;
+            &__item {
+
+            }
+        }
+    }
+    &__nav{
+
+    }
+}
