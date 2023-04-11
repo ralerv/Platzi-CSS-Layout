@@ -1,6 +1,16 @@
 $color-primario:#47cfac;
 $color-claro: white;
 $color-oscuro: black;
+$Fuente1: "Roboto", sans-serif;
+$Fuente2: "Roboto Mono", monospace;
+$Fuente3: "Roboto Slab", sans-serif;
+
+@function fuentes($number) {
+	@if $number == 1 {@return $Fuente1;}
+	@else if $number == 2 {@return $Fuente2;}
+	@else if $number == 3 {@return $Fuente3;}
+	@else {@return helvetica;}
+  }
 
 * {
 	box-sizing: border-box;
