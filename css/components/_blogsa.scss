@@ -1,0 +1,58 @@
+@use './index' as *;
+
+.news {
+    display: grid;
+    &__hero {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 20% 80%;
+        place-self: center;
+        padding: 24px;
+        row-gap: 8px;
+        column-gap: 24px;
+        background-color: $color-casi-claro;
+        &__title{
+            grid-column: 1;
+            grid-row: 1;
+            margin: 0;
+            align-self: center;        
+        }
+        &__img-container{
+            grid-column: 1;
+            grid-row: 2;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__text {
+            grid-column: 2;
+            grid-row: 2;
+            display: grid;
+            grid-template-rows: 1fr 3fr 1fr;
+            align-items: center;
+            gap: 16px;
+            &__title{
+                margin: 0
+            }
+            &__ca {
+                @include read-more-buttons;
+            }
+            &__ca:hover{
+                @include read-more-buttons-hover;
+            }
+        }
+    }
+    &__lasts {
+        display: grid;
+        &__title {
+            place-self: center;
+            text-align: center;
+            border-bottom: 1px solid $color-casi-claro;
+            width: 90%;
+            margin: 0;
+            padding: 12px 0;
+        }
+    }
+}
