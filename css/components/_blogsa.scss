@@ -5,9 +5,9 @@
     &__hero {
         display: grid;
         grid-template-columns: 3fr 2fr;
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 1fr 9fr;
         place-self: center;
-        padding: 24px;
+        padding: 24px 8%;
         row-gap: 8px;
         column-gap: 24px;
         background-color: $color-casi-claro;
