@@ -1,5 +1,9 @@
 @use './index' as *;
 
+body {
+    display: grid;
+}
+
 main {
     height: 100%;
 }

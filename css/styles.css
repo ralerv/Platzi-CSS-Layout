@@ -5,10 +5,15 @@
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: "Roboto Mono", monospace;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0;
 }
 
 .header {
@@ -60,9 +65,13 @@ a {
   align-self: center;
 }
 .header__nav__about a {
-  color: black;
-  border-bottom: 1px solid black;
+  color: #22272d;
+  border-bottom: 1px solid #22272d;
   font-family: "Roboto Mono", monospace;
+}
+
+body {
+  display: grid;
 }
 
 main {
@@ -95,7 +104,7 @@ main {
   padding: 16px;
   font-family: "Roboto", sans-serif;
   background-color: #47cfac;
-  color: black;
+  color: #22272d;
 }
 
 /*# sourceMappingURL=styles.css.map */
