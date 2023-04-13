@@ -1,0 +1,15 @@
+@use './index' as *;
+
+footer {
+    border-top: 35px solid $color-primario;
+    background-color: $color-oscuro;
+    width: 100%;
+    p{
+        width: 100%;
+        text-align: center;
+        min-height: 72px;
+        color: $color-claro;
+        display: inline-grid;
+        place-content: center;
+    }
+}

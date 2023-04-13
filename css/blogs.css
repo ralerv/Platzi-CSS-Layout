@@ -65,8 +65,8 @@ p {
   align-self: center;
 }
 .header__nav__about a {
-  color: black;
-  border-bottom: 1px solid black;
+  color: #22272d;
+  border-bottom: 1px solid #22272d;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -111,7 +111,7 @@ p {
 }
 .news__hero__text__ca {
   border: 2px solid #47cfac;
-  color: black;
+  color: #22272d;
   padding: 12px 16px;
   font-size: 12px;
   max-width: 100px;
@@ -127,6 +127,7 @@ p {
   color: white;
 }
 .news__lasts {
+  margin: 36px 0;
   display: grid;
 }
 .news__lasts__title {
@@ -149,7 +150,7 @@ p {
 }
 .news__lasts__cards-container .news__lasts__card {
   padding: 16px;
-  border: 2px solid black;
+  border: 2px solid #22272d;
 }
 .news__lasts__cards-container .news__lasts__card__img-container {
   width: 100%;
@@ -163,7 +164,7 @@ p {
 }
 .news__lasts__cards-container .news__lasts__card__ca {
   border: 2px solid #47cfac;
-  color: black;
+  color: #22272d;
   padding: 12px 16px;
   font-size: 12px;
   max-width: 100px;
@@ -177,6 +178,20 @@ p {
 .news__lasts__cards-container .news__lasts__card__ca:hover {
   background-color: #47cfac;
   color: white;
+}
+
+footer {
+  border-top: 35px solid #47cfac;
+  background-color: #22272d;
+  width: 100%;
+}
+footer p {
+  width: 100%;
+  text-align: center;
+  min-height: 72px;
+  color: white;
+  display: inline-grid;
+  place-content: center;
 }
 
 /*# sourceMappingURL=blogs.css.map */
