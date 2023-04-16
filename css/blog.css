@@ -99,7 +99,8 @@ p, figure {
 .blog-detail__content__text {
   text-align: start;
 }
-.blog-detail__contact {
+
+.contact {
   width: 100%;
   height: 100%;
   padding: 28px 20px;
@@ -110,7 +111,7 @@ p, figure {
   place-items: center;
   background-color: #e6e9ed;
 }
-.blog-detail__contact__card {
+.contact__card {
   width: 88%;
   height: 88%;
   display: flex;
@@ -118,18 +119,18 @@ p, figure {
   justify-content: center;
   gap: 12px;
 }
-.blog-detail__contact__card__img-container {
+.contact__card__img-container {
   height: 100%;
 }
-.blog-detail__contact__card__img-container img {
+.contact__card__img-container img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.blog-detail__contact__card__content__title {
+.contact__card__content__title {
   border-bottom: 1px solid #a7a7a7;
 }
-.blog-detail__contact__card__content__text {
+.contact__card__content__text {
   margin-top: 12px;
 }
 
