@@ -56,3 +56,13 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .header{
+        &__nav{
+            padding: 0;
+            width: 90%;
+            place-self: center;
+        }
+    }
+}

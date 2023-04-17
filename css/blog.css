@@ -70,6 +70,13 @@ p, figure {
   font-family: "Roboto Mono", monospace;
 }
 
+@media (max-width: 768px) {
+  .header__nav {
+    padding: 0;
+    width: 90%;
+    place-self: center;
+  }
+}
 .blog-detail {
   display: grid;
   place-items: center;
@@ -134,18 +141,36 @@ p, figure {
   margin-top: 12px;
 }
 
+@media (max-width: 768px) {
+  .contact {
+    gap: 64px;
+    padding: 5% 10%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .contact__card {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+  }
+  .contact__card__img-container {
+    max-width: 100px;
+  }
+}
 footer {
+  display: grid;
+  place-content: center;
+  place-items: center;
   border-top: 35px solid #47cfac;
   background-color: #22272d;
   width: 100%;
 }
 footer p {
-  width: 100%;
+  width: 90%;
+  padding: 20px 0;
   text-align: center;
   min-height: 72px;
   color: white;
-  display: inline-grid;
-  place-content: center;
 }
 
 /*# sourceMappingURL=blog.css.map */

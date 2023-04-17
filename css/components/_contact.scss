@@ -34,3 +34,20 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .contact{
+        gap: 64px;
+        padding: 5% 10%;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        &__card{
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            &__img-container{
+                max-width: 100px;
+            }
+        }
+    }
+}

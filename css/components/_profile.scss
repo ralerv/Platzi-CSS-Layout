@@ -55,3 +55,23 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .profile{
+        &__hero{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, auto);
+            row-gap: 16px;
+            padding: 24px 4%;
+            &__text{
+                grid-column: 1;
+                grid-row: 3;
+            }
+        }
+        &__projects{
+            &__container {
+            grid-template-columns: 100%;
+            }
+        }
+    }
+}
